@@ -2,8 +2,7 @@ FROM nginx:1.10-alpine
 
 # 
 # This is a docker image that listens on port 80 and simply redirects all httpRequest to replace http with https
-# This image can be placed in a task definition as a second container to force https. 
-# We won't need this if AWS ever adds support to an ELB to auto redirect traffic from one port to another (which seems like a reasonable request)
+# This image can be placed in a task definition as a second container to force https.
 #
 
 # Override the container port
